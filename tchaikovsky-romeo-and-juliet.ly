@@ -250,14 +250,14 @@ exampleIVBottom = \relative es' {
   \globalIntroII
   r4 es ^\markup \italic "cellos"
   _\markup \italic "dolce"
-  (f es
-  des) f (es des
-  ces) es (des ces
-  bes) ces (des ces
-  bes) \clef bass aes (ges f
-  f) g! \< (aes bes
-  c!) \! d \> (c bes
-  aes8) r \!
+  (<des f> <ces es>
+  <bes des>) <des f> (<ces es> <bes des>
+  <aes ces>) <ces es> (<bes des> <aes ces>
+  <ges bes>) <aes ces> (<bes des> <aes ces>
+  <ges bes>) \clef bass <f aes> (<es ges> <des f>
+  <d f>) <e g!> \< (<f aes> <g! bes>
+  <aes c!>) \! <bes d> \> (<aes c> <g bes>
+  <f aes>8) r \!
   \clef treble
   aes'4 \mf ^\markup \italic "harp" c f |
   aes c f aes
